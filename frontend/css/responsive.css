@@ -1,0 +1,254 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+	.profile-info h5 {
+	    font-size: 16px;
+	}
+	.suggest-account-area h4 {
+	    font-size: 16px;
+	}
+	.suggest-account-area {
+		padding: 15px 13px;
+	}
+	.social-actions ul li {
+	    padding: 8px 9px;
+	}
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+	.header-searchbox input {
+	    width: 100%;
+	}
+	.header-area .col-lg-3 {
+    	width: 30%;
+	}
+
+	.header-area .col-lg-6 {
+	    width: 40%;
+	}
+
+	.footer-area .col-lg-6 {
+	    width: 50%;
+	}
+	.footer-left-area .page-links a {
+	    margin-right: 1rem;
+	}
+	.modal-right-section {
+	    display: none;
+	}
+	
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+	.header-area .col-lg-6 {
+	    display: none;
+	}
+	.header-area .col-lg-3 {
+	    width: 50%;
+	}
+	.upload-btn img.home {
+	    display: none;
+	}
+	.upload-btn img {
+	    margin-right: 12px;
+	}
+	.modal-right-section {
+	    display: none;
+	}
+	.close-btn a {
+	    top: 50%;
+	    color: #fff;
+	    background: #506169;
+	    z-index: 999;
+	    padding: 19px 19px;
+	    border-radius: 53px;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    transform: translateY(-50%);
+	}
+	.volume-action {
+    	top: 50%;
+	    transform: translateY(-50%);
+	}
+	.close-btn img {
+        height: 22px;
+    }
+    a.btn.login-btn.pjax {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+    .footer-area.pt-25.pb-25 {
+	    text-align: center;
+	}
+
+	.copyright-section.f-right {
+	    float: none;
+	}
+	.copyright-section {
+	    text-align: center;
+	}
+	.footer-left-area .page-links a {
+	    margin-right: 0.5rem;
+	    text-align: center;
+	}
+	.dropdown-menu.show {
+    	margin-top: 60px;
+	}
+	.video-upload-title h2 {
+	    font-size: 25px;
+	}
+	.video-upload-title p {
+	    font-size: 16px;
+	}
+	.custom-form label {
+	    margin-top: 15px;
+	    font-size: 18px;
+	}
+	.video-public-privet-action h3 {
+	    font-size: 20px;
+	    margin-bottom: 0;
+	}
+	.video-public-privet-action {
+	    text-align: center;
+	}
+	.submit-post-action.f-right {
+	    float: none;
+	    text-align: center;
+	    margin-top: 20px;
+	}
+	.info-star h5 {
+	    font-size: 20px;
+	}
+	.info-star h6 {
+	    font-size: 18px;
+	}
+	.error-content {
+	    padding: 25px 20px;
+	}
+	.dropdown-menu.dropdown-notification.dropdown-menu-right.show {
+	    margin-top: 15px;
+	}
+	.upload_success h4 {
+	    font-size: 23px;
+	}
+	.upload_success {	    
+		padding: 27px 25px;
+	}
+	.upload_success i {
+	    padding: 18px;
+	}
+	img#notification_mode {
+	    display: none;
+	}
+	.user-main-info.d-flex {
+    display: block !important;
+	}
+
+	.user-profile-main-info {
+	    text-align: center;
+	}
+	.profile-report-area.f-right {
+	    display: none;
+	}
+	.login-birthday-display.d-flex {
+	    display: block !important;
+	}
+	.login-birthday-display .login-form-gorup {
+	    width: 100%;
+	    padding-right: 0;
+	}
+	.settings-sidebar-card {
+	    margin-bottom: 30px;
+	}
+	.monetization-box.d-flex {
+	    display: block !important;
+	    width: 100%;
+	    text-align: center !important;
+	}
+
+	.monetization-require-info.d-block {
+	    text-align: center;
+	    margin-right: 0;
+	    margin-bottom: 15px;
+	}
+
+	.monetization-box i {
+	    margin-bottom: 10px;
+	}
+	.send-monetization-area a {
+	    width: 100%;
+	    padding: 14px 9px;
+	}
+	.withdraw-payment-choose ul {
+	    display: block;
+	    margin: auto;
+	    width: 100%;
+	}
+	.withdraw-payment-choose ul li {
+    	width: 100%;
+	}
+	.total-balence p {
+	    font-size: 26px;
+	}
+	.withdraw.f-right {
+	    float: none;
+	    text-align: center;
+	    margin-bottom: 15px;
+	}
+
+	div#balence h4 {
+	    text-align: center;
+	}
+	.delete-session a {
+	    margin: auto;
+	    width: 100%;
+	    margin-bottom: 20px;
+	    margin-top: 10px;
+	}
+	.manage-session.d-flex {
+	    display: block !important;
+	    text-align: center;
+	    height: 100%;
+	}
+	.ads-header.d-flex {
+	    display: block !important;
+	    text-align: center;
+	}
+
+	.ads-header h4 {
+	    margin-right: 0;
+	    margin-bottom: 10px;
+	}
+
+	.create-ads-button {
+	    margin-top: 20px;
+	}
+	.boot-your-post {
+	    display: flex;
+	}
+
+	.boot-your-post a {
+	    padding: 0 20px;
+	}
+	#nprogress .spinner {
+	  display: none;
+	}
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
